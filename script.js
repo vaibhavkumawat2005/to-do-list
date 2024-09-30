@@ -19,9 +19,9 @@ const taskRender = () => {
     <span>${task.text}</span>
     <div>
         <button class ="btncom" onclick = "toggleTask(${index})">${
-      task.completed ? "Undo" : "Completed"
+      task.completed ? '<i class="fa-solid fa-arrow-rotate-left"></i>' : '<i class="fa-solid fa-circle-check"></i>'
     }</button>
-        <button class="btndel" onclick="deleteTask(${index})">Delete</button>
+        <button class="btndel" onclick="deleteTask(${index})"><i class="fa-solid fa-trash-can"></i></button>
     </div>
     `;
     todoList.appendChild(li);

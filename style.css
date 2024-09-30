@@ -1,65 +1,94 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    min-height: 80vh;
-    margin-top: 20px;
-    
-    background-color: blanchedalmond;
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+body {
+  background-color: #ad5af7;
 }
 
-h1{
-    font-size: 40px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    
+.h1 {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
 }
 
-#todo-input{
-    padding:10px;
-    border-radius: 10px;
+h1 {
+  font-size: 40px;
+  
+ }
+
+#todo-input {
+  padding: 10px;
+  border-radius: 10px;
 }
 
-#add-button{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: beige;
-    /*   */
-}
-#add-button:hover{
-    color: aliceblue;
-    background-color: black;
-    
-    transition: all 0.2s linear;
-    margin-left: 10px;
-       
+#add-button {
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 30px;
 
+  background-color: #ad5af7;
+  /*   */
 }
-.todo{
-    border: 5px solid black;
-    height: auto;
-    width: 500px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background-color: seagreen;
-    border-radius: 10px;
-    margin-top: 50px;
-    
-        
-     
+#add-button:hover {
+  color: #ad5af7;
+  background-color: #ffffff;
+
+  transition: all 0.2s linear;
+  margin-left: 10px;
+}
+.todo {
+  height: 180px;
+  width: 400px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 50px;
+  border-bottom: 5px solid #ad5af7;
 }
 
-#todo-list li{
-    font-size: 30px;
-    list-style: lower-roman;
+#todo-list li {
+  font-size: 20px;
+  list-style: none;
 
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
 
+  border-bottom: 1px solid silver;
 }
-.btncom,.btndel{
-    padding:10px;
-    border-radius: 5px;
-    color: white;
-    background-color: sandybrown;
-    font-weight: bold;
+.btncom,
+.btndel {
+  padding: 5px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  color: white;
+  background-color: #ad5af7;
+  font-weight: bold;
+}
+ul {
+  border-radius: 15px;
+  background-color: #ffffff;
+
+  width: 366px;
+  margin-left: 5px;
+
+  text-align: center;
+}
+.todo-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
