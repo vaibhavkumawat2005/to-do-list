@@ -8,7 +8,9 @@
   text-align: center;
 }
 body {
-  background-color: #ad5af7;
+  background-image: url(asset/imag/wallpaperflare.com_wallpaper\ \(7\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .h1 {
