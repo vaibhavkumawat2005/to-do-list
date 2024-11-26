@@ -64,8 +64,8 @@ https://github.com/user-attachments/assets/3be0c7f5-aeae-4b4c-86c9-89889b56ae57
       <li>Customize icons or buttons using the Font Awesome library integrated into the project.</li>
     </ul>
 
-    <h2>License</h2>
+   <h2>License</h2>
     <p>This project is licensed under the MIT License. Feel free to use and modify it as needed.</p>
 
-    <h2>Author</h2>
+   <h2>Author</h2>
     <p>Created by <a href="https://github.com/your-username">Your Name</a>. For any questions or suggestions, feel free to reach out.</p>
