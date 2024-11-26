@@ -22,6 +22,7 @@ body {
 
 h1 {
   font-size: 40px;
+  color: #ffffff;
   
  }
 
@@ -34,12 +35,13 @@ h1 {
   padding: 10px;
   border-radius: 10px;
   margin-left: 30px;
+  color:#ffffff ;
 
-  background-color: #ad5af7;
+  background-color: #C4CEAB;
   /*   */
 }
 #add-button:hover {
-  color: #ad5af7;
+  color: black;
   background-color: #ffffff;
 
   transition: all 0.2s linear;
@@ -51,12 +53,12 @@ h1 {
   justify-content: center;
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #364554;
 
   text-align: center;
   border-radius: 15px;
   margin-top: 50px;
-  border-bottom: 5px solid #ad5af7;
+  border-bottom: 5px solid #983A01;
 }
 
 #todo-list li {
@@ -74,9 +76,9 @@ h1 {
 .btndel {
   padding: 5px;
   margin-bottom: 2px;
-  border-radius: 5px;
+  border-radius: 2px;
   color: white;
-  background-color: #ad5af7;
+  background-color: #364554;
   font-weight: bold;
 }
 ul {
